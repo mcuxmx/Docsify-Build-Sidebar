@@ -135,13 +135,13 @@ public static class Utils
         //Console.SetWindowSize(150, Console.WindowHeight);
 
         var logo = new FigletText("build sidebar")
-            .LeftAligned()
+            .LeftJustified()
             .Color(Color.Yellow);
         AnsiConsole.Write(logo);
 
         var rule = new Rule("[red]build sidebar for c#[/]")
         {
-            Alignment = Justify.Center,
+            Justification = Justify.Center,
             Style = Style.Parse("red dim")
         };
 
