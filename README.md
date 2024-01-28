@@ -31,6 +31,8 @@
 > 3. 双击 exe 执行
 
 # 小技巧:
+
+## 快捷方式
 可以右键单击 exe ,创建一个 快捷方式, 
 
 把这个`快捷方式`剪切到自己的项目根目录,
@@ -38,6 +40,14 @@
 以后就不用每次都去找 exe 了
 
 ![image](https://github.com/xxxxue/Docsify-Build-Sidebar/assets/32764266/db131d3a-1caa-4ce9-a86f-a4622912d129)
+
+## 快速运行 docsify
+docsify 目录中新建一个 `运行docsify.bat` 文件, 代码如下
+```bash
+@echo off
+docsify serve ./
+```
+以后双击这个文件,就可以本地运行 docsify 了
 
 
 # Config.json 配置项
